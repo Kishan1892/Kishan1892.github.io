@@ -1,0 +1,273 @@
+﻿<!DOCTYPE html>
+<!-- This website template was created by: Kishan Patel | Date: 20th October 2017 | Student number: c0720648 -->
+<html>
+<head>
+    <title>Know Radio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/animate.css" rel="stylesheet" />
+    <link href="Content/nanogallery.min.css" rel="stylesheet" />
+    <link href="css/knowradio.css" rel="stylesheet" />
+
+</head>
+<body>
+    <header>
+       <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header" 
+             role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed"
+                            data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#top">
+                        <img class="img-responsive" src="images/logo.jpg" alt="Logo"/>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">Home</a></li>
+                        <!--<li><a href="#aboutus">About Us</a></li>  -->
+                        <li><a href="aboutUss.html">About Us</a></li>
+                        <li><a href="product.html">Products</a></li>
+						<li><a href="gallery.html">Product Gallery</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+						<li><a href="joinus.html">Join Us</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+<div class="container-fluid section">	 
+        <div class="container">
+
+<form class="well form-horizontal" action="success.html" method="post" id="contact_form" data-toggle="validator" role="form">
+  <fieldset>
+  <legend>Contact Us!</legend>
+  <div class="form-group">
+    <label class="col-md-4 control-label">First Name</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group firstname">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input id="first_name" name="first_name" placeholder="First Name" class="form-control"  type="text">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="form-group">
+    <label class="col-md-4 control-label" >Last Name</label> 
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+    <input id="last_name" name="last_name" placeholder="Last Name" class="form-control"  type="text">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group gender">
+      <label class="col-md-4 control-label">Gender</label>  
+      <div class="custom-controls-stacked d-block my-3">
+        <label class="custom-control custom-radio">
+          <input id="radioStacked1" name="radio-stacked" type="radio" class="custom-control-input" >
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description">Male </span>
+        </label>
+        <label class="custom-control custom-radio">
+          <input id="radioStacked2" name="radio-stacked" type="radio" class="custom-control-input" >
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description">Female</span>
+        </label>
+        <label class="custom-control custom-radio">
+          <input id="radioStacked3" name="radio-stacked" type="radio" class="custom-control-input" >
+          <span class="custom-control-indicator"></span>
+          <span class="custom-control-description">Don't Reveal</span>
+        </label>
+    </div>
+  </div>
+
+
+  <div class="form-group">
+    <label class="col-md-4 control-label">Birthday #</label>  
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+    <input id="month" name="birthday" class="form-control" type="date" min="1991-01-02" max="2018-04-16"> 
+      </div>
+    </div>
+  </div>
+
+
+  <div class="form-group">
+    <label class="col-md-4 control-label">E-Mail</label>  
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+    <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+      </div>
+    </div>
+  </div>
+
+        
+  <div class="form-group">
+    <label class="col-md-4 control-label">Phone #</label>  
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+    <input name="phone" placeholder="(845)555-1212" class="form-control" type="tel">
+      </div>
+    </div>
+  </div>
+
+        
+  <div class="form-group">
+    <label class="col-md-4 control-label">Address</label>  
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+    <input name="address" placeholder="Address" class="form-control" type="text">
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="form-group">
+    <label class="col-md-4 control-label">City</label>  
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+    <input name="city" placeholder="City" class="form-control"  type="text">
+      </div>
+    </div>
+  </div>
+
+    
+  <div class="form-group"> 
+    <label class="col-md-4 control-label">State</label>
+      <div class="col-md-4 selectContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+      <select name="state" class="form-control selectpicker" >
+        <option value=" " >Please select your province</option>
+        <option>Ontario</option>
+        <option>Alberta</option>
+        <option >British Columbia</option>
+        <option >Manitoba</option>
+      </select>
+    </div>
+    </div>
+  </div>
+
+  <!-- Text input-->
+
+  <div class="form-group">
+    <label class="col-md-4 control-label">Zip Code</label>  
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+    <input name="zip" placeholder="Zip Code" class="form-control"  type="text">
+      </div>
+  </div>
+  </div>
+
+  <div class="form-group">
+    <label class="col-md-4 control-label">URL</label>  
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+    <input name="page" placeholder="http://knowradio.com" class="form-control"  type="url">
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label class="col-md-4 control-label">Visit #</label>  
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+    <input name="visit" placeholder="100" class="form-control"  type="number">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="form-group">
+    <label class="col-md-4 control-label">Enquiring For #</label>  
+    <div class="col-md-2 form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" value="">
+        Radio
+      </label>
+    </div>
+    <div class="col-md-2 form-check ">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" value="">
+        Careers
+      </label>
+    </div>
+  </div>
+
+
+  <!-- Text area --> 
+  <div class="form-group">
+    <label class="col-md-4 control-label">Suggestions/Comments</label>
+      <div class="col-md-4 inputGroupContainer">
+      <div class="input-group">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+            <textarea class="form-control" name="comment" placeholder="Suggestions/Comments"></textarea>
+    </div>
+    </div>
+  </div>
+
+  <!-- Button -->
+  <div class="form-group">
+    <label class="col-md-4 control-label"></label>
+    <div class="col-md-4">
+      <button type="submit"  class="btn btn-warning" >Submit <span class="glyphicon glyphicon-send"></span></button>
+      <button type="reset" class="btn btn-warning" >Reset <span class="glyphicon glyphicon-send"></span></button>
+    </div>
+  </div>
+
+  
+
+  </fieldset>
+</form>
+  </div>
+      </div><!-- /.container -->
+
+
+
+  <div class="membership wow slideInLeft" data-wow-duration="2s">
+        <h3>FREE One-Month Trial Membership!</h3>
+        <p><a href="tel:558145559608">Call Us Today to Get Started</a></p>
+  </div>		
+
+<footer> &copy;Copyright 2018.All Rights Reserved.<br>
+      Kishan Patel &nbsp; &nbsp; c0720648<br>
+      <a href="mailto:info@knowradio.com">Request information</a>
+</footer>
+	
+
+<script>
+function myFunction() {
+    var x = document.getElementById("month").value;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <!--  <script src="Scripts/jquery-1.9.0.min.js"></script> -->
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.js"></script>
+    <script src="Scripts/classie.js"></script>
+    <script src="Scripts/cbpAnimatedHeader.js"></script>
+    <script src="Scripts/wow.min.js"></script>
+    <script src="Scripts/jquery.nanogallery.min.js"></script>
+	<script src="Scripts/init.js"></script>
+</body>
+</html>

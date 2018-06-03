@@ -1,0 +1,36 @@
+{"speakers":[
+	{
+		"name": "Ben",
+		"title": "Customer Service Represntative",
+		"department": "Marketing",
+		"bio": "Ben just joined us at Know Radio as a Customer Service Representative. He takes care of the customers and make sure every customer is happy with our service. Ben likes to travel a lot and wishes to see the entire world. Apart from traveling, he loves cycling and he is very concerned about fitness. Know Radio is happy to have him in our team."
+	},
+	{
+		"name": "Markham",
+		"title": "Warehouse Driver",
+		"department": "Warehouse",
+		"bio": "Markham is in our Warehouse department. He takes care of the radios and make sure about the stock at warehouse. Markham is very punctual and loves to be ready for every delivery. Markham is fond of playing basketball and supports Lambton College Lions. We are gratefull to have him at Know Radio."
+	},
+	{
+		"name": "Jennifer",
+		"title": "Software Developer Support",
+		"department": "IT",
+		"bio": "Jennifer just joined us at Know Radio two months ago as a Software Developer. He is fond of helping support team in solving tickets so she takes care of support team. She makes sure that the ticket raised by customer is addressed properly and makes sure that the customer is happy closing the ticket. She is fond of listening romantic music. Know Radio welcomes her."
+	},
+	{
+		"name": "Anne",
+		"title": "Software Developer",
+		"department": "IT",
+		"bio": "Anne is Software Developer at Know Radio. She takes care of new enhancements to be implemented at Know Radio. She loves to implement new concepts at Know Radio making customers life easy and simpler. She is fond of watching action movies. We are grateful to have her in our team. "
+	},
+	{
+		"name": "Veronica",
+		"title": "HR Manager",
+		"department": "HR",
+		"bio": "Veronica is HR Manager at Know Radio. She takes care of the concerns and voices of our employees and makes sure each and every employee at Know Radio is happy. She organises events at Know Radio for employees so that employees can also enjoy apart from just work. We are grateful to have Veronica in our team."
+	}
+
+
+
+	
+]}

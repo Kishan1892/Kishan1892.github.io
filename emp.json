@@ -1,0 +1,14 @@
+{"speakers":[
+	{
+		"name": "Kishan",
+		"title": "Software Developer",
+		"department": "IT",
+		"bio": "Kishan is fond of coding. He loves to test the application and automae stuffs to reduce regression cycle. He is fond of Selenium and Protractor"
+	},
+	{
+		"name": "B",
+		"title": "B",
+		"department": "B",
+		"bio": "B"
+	}
+]}

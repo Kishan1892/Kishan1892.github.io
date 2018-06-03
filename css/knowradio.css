@@ -1,0 +1,369 @@
+﻿/* Style sheet template was created by: Kishan Patel  Start Date: 6th October 2017 */
+body {
+    font-family: 'Open Sans', sans-serif;
+    /*padding-top: 110px; */
+}
+
+.alert-success{
+    font-size: 40px;
+}
+
+#contact_form_join{
+    padding-top: 120px; 
+}
+.productgalleryheader{
+    padding-top: 120px;  
+}
+
+.ui-menu { width: 150px; }
+
+
+.navbar {
+    margin-bottom: 0px;
+    padding: 30px 5px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+@media (max-width: 400px) {
+    .navbar-header {
+        position: relative;
+    }
+    .navbar img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 70%; 
+    }
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #bbb;
+}
+
+.collapse .navbar-collapse {
+	padding : 10px;
+}
+
+.img-responsive {
+	padding-top: 10px;
+} 
+
+.cbp-af-header-shrink {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0.9;
+}
+
+.fill-screen {
+    background-size: cover;
+    background-position: center;
+    max-height: 500px;
+}
+
+.content-filler {
+    min-height: 350px;
+}
+
+.fixed-attachment {
+    background-attachment: fixed;
+}
+@media (max-width: 1024px){
+    .fixed-attachment {
+        background-attachment: scroll;
+    }	
+}
+
+.welcome-element {
+    padding-top: 40px;
+}  
+
+.welcome-element > p {
+    color : gray;
+    font-size: 20px;
+    text-align: center;
+}
+
+.welcome-element > img {
+    padding: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #bbb;    
+}
+
+#products {
+    padding-top: 110px; 
+}
+
+#contact_form {
+    padding-top: 120px; 
+}
+
+.product-section {
+    margin: 50px;
+}
+.product-element {
+    text-align: center;
+}
+.product-element img {
+    width: 200px;
+    height: 200px;
+}
+.product-element h3 {
+    text-align: start;
+}
+
+.product-element h4 {
+    text-align: start;
+    background-color: lightgray;
+    color: black;
+    padding-left: 30px
+}
+
+@media (min-width: 760px) {
+    .product-element ul {
+        padding-left: 70px;
+        text-align: start;
+}
+}
+
+@media (max-width: 759px) {
+    .product-element ul {
+        padding-left: 5px;
+        text-align: left;
+}
+
+.product-element {
+    text-align: left;
+}
+}
+
+/* .product-element ul {
+    padding-left: 70px;
+    text-align: start;
+} */
+
+.monthproductheader h1 {
+    text-align: center;
+}
+
+.monthproductheader {
+    margin: 50px;
+}
+
+.monthproduct-element {
+    text-align: center;
+}
+
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.monthproduct-element img{
+    width: 90%;
+    max-height: 250px;
+    max-width: 600px;
+}
+
+.monthproduct-element {
+    text-align: center;
+}
+
+.monthproduct-element h1 {
+    text-align: start;
+    padding-left: 30px
+}
+
+.monthproduct-element h2 {
+    text-align: start;
+    background-color: lightgray;
+    color: black;
+    padding-left: 30px
+}
+
+.monthproduct-element h3 {
+    text-align: start;
+    padding-left: 40px
+}
+
+.monthproduct-element ul {
+    padding-left: 70px;
+    text-align: start;
+}
+
+.productheader h1 {
+    text-align: center;
+}
+
+.productgalleryheader h1 {
+    text-align: center;
+}
+
+.aboutusheader h1{
+    text-align: center
+}
+#aboutus{
+    text-align: center;
+    padding-top: 110px; 
+}
+
+#executivestaff h1 {
+        background: url(images/plus.jpg) no-repeat left center;
+        }
+#executivestaff h1.minus {
+        background: url(images/minus.jpg) no-repeat left center;
+        }
+
+#whoweare h1 {
+            background: url(images/plus.jpg) no-repeat left center;
+            }
+#whoweare h1.minus {
+            background: url(images/minus.jpg) no-repeat left center;
+            }
+
+#reason h1 {
+                background: url(images/plus.jpg) no-repeat left center;
+                }
+#reason h1.minus {
+                background: url(images/minus.jpg) no-repeat left center;
+                }
+
+.membership{
+    text-align: center;
+}
+
+.executiveheader {
+    text-align: center;
+}
+
+.staff-element img {
+    width: 200px;
+    height: 200px;
+}
+
+.staff-element {
+    text-align: center;
+}
+
+.whoweareheader{
+    text-align: center;
+    /*margin-left: 10px; */
+    margin-right : 10px;
+}
+
+.whoweare-section h4{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+
+.reasonheader{
+    text-align: center;
+}
+
+.guaranteeheader{
+    text-align: center;
+}
+
+.guarantee-section p{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+article {
+	background-color : lightgray;
+	float : left;
+	margin : 0.5%;
+	padding : 0.5%;
+	text-align : center;
+	width : 31%;
+}
+
+aside {
+	background-color : #FFFFFF;
+	border-radius : 0 5em 5em 5em;
+	box-shadow : 1em 1em 1em #4C4F4D;
+	padding : 1.5em;
+	margin : 1em;
+    text-align: center;
+}
+
+ul {
+	margin-bottom : 50px;
+	list-style-position : inside;
+}
+
+article li {
+    text-align: left;
+}
+
+article p {
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+@media (min-width: 760px) {
+    article figure img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 759px) {
+    article figure img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+/*article figure img {
+    width: 200px;
+    height: 200px;
+} */
+
+.item img {
+    width: 50%;
+    height: 50%;
+} 
+
+.audio {
+    text-align: center;
+}
+
+.video{
+ text-align: center;
+}
+
+/* Style for Form */
+.custom-control-description {
+    padding-right: 10px;
+}
+
+.custom-radio {
+    padding-top : 6px;
+    padding-left: 15px;
+}
+
+.form-check-label {
+    padding-top : 6px;
+}
+
+
+
+
+
